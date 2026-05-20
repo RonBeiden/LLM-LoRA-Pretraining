@@ -1,0 +1,16 @@
+Experiment,Perplexity,Final Train Loss
+Base Model (no training),14.49,-
+LoRA r=4,13.77,2.5776
+LoRA r=16,13.64,2.5541
+LoRA r=64,13.54,2.5189
+LR=1e-05,14.33,2.6582
+LR=0.0001,13.75,2.5749
+LR=0.0005,13.58,2.5197
+LR=0.001,13.69,2.4831
+"Modules: q,v",13.64,2.5540
+"Modules: q,k,v,o",13.41,2.5173
+Modules: all linear,13.46,2.3793
+Sched: no warmup + constant,13.59,2.5444
+Sched: warmup + constant,13.62,2.5442
+Sched: no warmup + cosine,13.65,2.5523
+Sched: warmup + cosine,13.64,2.5541

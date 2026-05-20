@@ -1,0 +1,31 @@
+{
+  "model_name": "Qwen/Qwen2.5-1.5B",
+  "max_length": 512,
+  "num_train_chunks": 1636,
+  "num_val_chunks": 112,
+  "total_train_tokens": 837632,
+  "total_val_tokens": 57478,
+  "val_source": "The Sign of the Four (complete novel, Gutenberg ID 2097)",
+  "books": {
+    "244": "A Study in Scarlet",
+    "2097": "The Sign of the Four",
+    "2852": "The Hound of the Baskervilles",
+    "3289": "The Valley of Fear",
+    "1661": "The Adventures of Sherlock Holmes",
+    "834": "The Memoirs of Sherlock Holmes",
+    "108": "The Return of Sherlock Holmes",
+    "2350": "His Last Bow",
+    "69700": "The Case-Book of Sherlock Holmes"
+  },
+  "token_counts": {
+    "244": 57755,
+    "2097": 57478,
+    "2852": 82730,
+    "3289": 76731,
+    "1661": 137000,
+    "834": 133312,
+    "108": 158683,
+    "2350": 78182,
+    "69700": 113670
+  }
+}

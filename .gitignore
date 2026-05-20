@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model outputs (large files)
+outputs/baseline/final_adapter/
+outputs/baseline/checkpoint-*/
+outputs/baseline/runs/
+outputs/experiments/ablation*/adapter/
+outputs/experiments/ablation*/checkpoint-*/
+outputs/experiments/ablation*/runs/
+outputs/baseline/logs/
+
+# Data (can be regenerated)
+data/raw/
+data/processed/*.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/

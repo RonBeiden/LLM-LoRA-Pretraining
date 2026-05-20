@@ -1,0 +1,12 @@
+{
+  "model_name": "Qwen/Qwen2.5-1.5B",
+  "adapter_path": "outputs\\baseline\\final_adapter",
+  "max_length": 512,
+  "stride": 256,
+  "val_tokens": 57478,
+  "base_perplexity": 14.493626080420734,
+  "adapted_perplexity": 13.648573134225582,
+  "improvement_pct": 5.830514334412997,
+  "base_avg_nll": 2.673708972121988,
+  "adapted_avg_nll": 2.613634983875922
+}
