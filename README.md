@@ -6,20 +6,22 @@ Adapting a pre-trained language model to the Sherlock Holmes corpus using LoRA/Q
 
 ```
 assignment1/
-├── 00_report.ipynb               # Report (GPU info, assumptions, mistakes, AI usage)
-├── 01_memory_estimation.ipynb    # GPU memory estimation table (no GPU needed)
-├── 02_data_preprocessing.ipynb   # Download, clean, tokenize Holmes corpus
-├── 03_training.ipynb             # Continued pre-training with LoRA
-├── 04_evaluation.ipynb           # Perplexity evaluation (base vs adapted)
-├── 05_experiments.ipynb          # Ablation experiments (rank, LR, modules, scheduler)
-├── requirements.txt              # Python dependencies
+├── notebooks/
+│   ├── 00_report.ipynb               # Report (GPU info, assumptions, mistakes, AI usage)
+│   ├── 01_memory_estimation.ipynb    # GPU memory estimation table (no GPU needed)
+│   ├── 02_data_preprocessing.ipynb   # Download, clean, tokenize Holmes corpus
+│   ├── 03_training.ipynb             # Continued pre-training with LoRA
+│   ├── 04_evaluation.ipynb           # Perplexity evaluation (base vs adapted)
+│   ├── 05_experiments.ipynb          # Ablation experiments (rank, LR, modules, scheduler)
+│   └── *.png                         # All plots and figures
+├── requirements.txt                  # Python dependencies
 ├── data/
-│   ├── raw/                      # Downloaded Gutenberg texts
-│   └── processed/                # Tokenized & chunked training/validation data
+│   ├── raw/                          # Downloaded Gutenberg texts
+│   └── processed/                    # Tokenized & chunked training/validation data
 └── outputs/
-    ├── baseline/                 # Baseline training outputs & adapter
-    ├── experiments/              # Ablation experiment outputs
-    └── evaluation_results.json   # Final evaluation metrics
+    ├── baseline/                     # Baseline training outputs & adapter
+    ├── experiments/                  # Ablation experiment outputs
+    └── evaluation_results.json       # Final evaluation metrics
 ```
 
 ## Execution Order
