@@ -39,11 +39,9 @@ assignment1/
 pip install -r requirements.txt
 ```
 
-## Cluster Usage (BGU)
+## GPU Used
 
-```bash
-srun --qos=course --partition=rtx2080 --gres=gpu:1 --account=cours_ibm26 jupyter notebook
-```
+All training and evaluation was performed locally on an **NVIDIA RTX A1000 Laptop GPU (6 GB VRAM)** with CUDA 12.8 and PyTorch 2.11.0+cu128. QLoRA + gradient checkpointing kept peak memory at ~3.9 GB.
 
 ## Model
 
